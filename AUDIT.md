@@ -56,6 +56,8 @@ The old website's renovation.jpg, construction.jpg and interior.jpg were credite
 6. Test small phones, standard phones, tablets, landscape and desktop for layout, functionality, image loading and keyboard use.
 7. Publish to existing Pages destinations only when repository write access is available, then confirm the new deployment.
 
-## Publication access
+## Publication access at the initial audit
 
 GitHub's connected/local account is MokhethiNyaps. On 13 October 2026 GitHub reported `push: false` for both repositories. Pages is already built from main/root at the expected HTTPS destinations. Local rebuild and verification can complete; publishing the new content requires the owner to grant write access or connect an authorised account. The previously deployed pages are not evidence that the new rebuild has been published.
+
+Access update: the owner subsequently granted collaborator access. GitHub now reports `push: true` for both repositories. The tested rebuild can be published to the existing main/root Pages destinations.

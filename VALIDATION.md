@@ -86,8 +86,8 @@ Every item below is backed by the acceptance results above, source inspection, A
 - R-30 PASS: No requested or implemented clone of another product.
 - R-31 PASS: Each major decision is documented with its purpose.
 
-## Deployment remaining
+## Deployment procedure
 
-GitHub Pages is configured correctly at both original public addresses, using main/root. GitHub reports that MokhethiNyaps lacks push access to both repositories. New content has not been published. Grant repository write access or connect the owner account, then publish and verify the new deployed HTML, images, QR and vCard at the original HTTPS URLs. Until then the old live sites remain unchanged.
+GitHub Pages is configured correctly at both original public addresses, using main/root. MokhethiNyaps initially lacked push access; the owner subsequently granted collaborator access and GitHub confirmed `push: true` on both repositories. Publish the tested rebuild by pushing to main, then verify the completed Pages builds and the new deployed HTML, images, QR and vCard at the original HTTPS URLs. The local acceptance results above precede publication; live confirmation is a separate check.
 
 Smartphone check instructions and QR regeneration are in the card README. The contact QR itself is an offline vCard and has no localhost or preview destination.

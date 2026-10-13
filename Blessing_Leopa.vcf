@@ -4,6 +4,7 @@ N:Leopa;Blessing;;;
 FN:Blessing Leopa
 ORG:LEOPA SUPPLY
 TITLE:Director
-TEL;TYPE=CELL,VOICE:+27638809118
-EMAIL;TYPE=INTERNET,WORK:tleopa@yahoo.co.uk
+TEL:+27638809118
+EMAIL:tleopa@yahoo.co.uk
+URL:https://nyaps-tech.github.io/leopa-supply-website/
 END:VCARD

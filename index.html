@@ -3,86 +3,63 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#12120f">
-  <meta name="description" content="LEOPA SUPPLY delivers building construction, renovations and finishing work in South Africa.">
-  <title>LEOPA SUPPLY | Construction · Renovation · Finishing</title>
+  <meta name="theme-color" content="#191918">
+  <meta name="description" content="Leopa Supply (Pty) Ltd. Building construction, foundations, renovations and finishing. View supplied project photographs and contact Director Blessing Leopa.">
+  <meta property="og:title" content="Leopa Supply | Building, renovation & finishing">
+  <meta property="og:description" content="From foundations to the finishing details. View our work and discuss your project with Blessing Leopa.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nyaps-tech.github.io/leopa-supply-website/">
+  <meta property="og:image" content="https://nyaps-tech.github.io/leopa-supply-website/images/completed-home.jpg">
+  <title>Leopa Supply | Building, renovation & finishing</title>
+  <link rel="canonical" href="https://nyaps-tech.github.io/leopa-supply-website/">
   <link rel="icon" href="logo.jpeg">
   <link rel="stylesheet" href="styles.css">
   <script src="site.js" defer></script>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="logo-link" href="#home" aria-label="LEOPA SUPPLY home"><img src="logo.jpeg" alt="LEOPA SUPPLY logo"></a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">+</span></button>
-    <nav id="navigation" aria-label="Main navigation">
-      <a href="#services">Services</a>
-      <a href="#work">Our work</a>
-      <a href="#director">Director</a>
-      <a href="#contact">Contact</a>
-      <a class="nav-cta" href="https://wa.me/27638809118">Start a project <span aria-hidden="true">↗</span></a>
-    </nav>
+    <a class="brand" href="#home" aria-label="Leopa Supply home"><img src="logo.jpeg" width="102" height="68" alt="Leopa Supply"></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu</button>
+    <nav id="navigation" aria-label="Main navigation"><a href="#work">Our work</a><a href="#services">Services</a><a href="#company">Company</a><a class="nav-contact" href="#contact">Contact us</a></nav>
   </header>
-
   <main id="main">
-    <section class="hero" id="home">
-      <img class="hero-image" src="renovation.jpg" alt="Scaffolding on a building undergoing renovation" fetchpriority="high">
-      <div class="hero-overlay"></div>
-      <div class="hero-content wrap">
-        <p class="eyebrow light"><span></span> Construction · Renovation · Finishing</p>
-        <h1>Built for the<br>work that <em>moves<br>you forward.</em></h1>
-        <p class="hero-copy">From the first foundation to the final finish, LEOPA SUPPLY brings practical construction and renovation services together.</p>
-        <div class="hero-actions"><a class="button gold" href="#contact">Discuss your project <span aria-hidden="true">↗</span></a><a class="hero-phone" href="tel:+27638809118">Call 063 880 9118 <span aria-hidden="true">→</span></a></div>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Building.<br>Renovation.<br><span>The final finish.</span></h1>
+        <p>From foundations to ceilings, Leopa Supply brings your building and renovation work together.</p>
+        <a class="button" href="#work">View our work</a>
+        <span class="hero-signature">LEOPA SUPPLY (Pty) Ltd</span>
       </div>
-      <div class="hero-footer wrap"><span>Building · Supply · Trusted</span><span>LEOPA SUPPLY (Pty) Ltd</span><span>South Africa</span></div>
+      <figure class="hero-photo"><picture><source srcset="images/completed-home.webp" type="image/webp"><img src="images/completed-home.jpg" width="1280" height="960" alt="Grey house with a metal roof, finished exterior walls and a timber front door" fetchpriority="high"></picture><figcaption>A finished exterior, from the supplied project photographs.</figcaption></figure>
     </section>
-
-    <section class="intro wrap">
-      <div><p class="section-kicker">The work, considered</p><h2>A strong start.<br><em>A result that lasts.</em></h2></div>
-      <div class="intro-copy"><p class="lead">Every project asks for a different balance of experience, coordination and care.</p><p>LEOPA SUPPLY handles building construction, renovations and the finishing work that makes a space feel complete. Bring the scope, the questions and the ambition — we’ll start with a clear conversation.</p><a class="text-link" href="#services">Explore our services <span aria-hidden="true">↓</span></a></div>
-    </section>
-
-    <section class="services" id="services">
-      <div class="wrap">
-        <div class="section-heading"><p class="section-kicker">What we do</p><h2>Designed around<br>the <em>real work.</em></h2></div>
-        <div class="service-grid">
-          <article class="service-card"><div class="service-top"><span>01</span><span>Start solid</span></div><h3>Building & foundations</h3><p>Building construction and foundation work for your next project.</p><a href="#contact" data-service="Building & foundations">Talk to us <span aria-hidden="true">↗</span></a></article>
-          <article class="service-card"><div class="service-top"><span>02</span><span>Make it new</span></div><h3>Renovations & plastering</h3><p>Thoughtful renovation and plastering services for spaces you want to change or improve.</p><a href="#contact" data-service="Renovations & plastering">Talk to us <span aria-hidden="true">↗</span></a></article>
-          <article class="service-card charcoal"><div class="service-top"><span>03</span><span>Bring it together</span></div><h3>Painting & ceilings</h3><p>Painting and ceiling work to complete the interior or exterior of your space.</p><a href="#contact" data-service="Painting & ceilings">Talk to us <span aria-hidden="true">↗</span></a></article>
-          <article class="service-card gold-card"><div class="service-top"><span>04</span><span>Secure & connect</span></div><h3>Fencing & electrical work</h3><p>Devil’s fork security fencing and electricity installation for your project.</p><a href="#contact" data-service="Fencing & electrical work">Talk to us <span aria-hidden="true">↗</span></a></article>
-        </div>
+    <section class="work wrap" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="section-label">Project photographs</p><h2 id="work-title">The work in view.</h2></div><p>Construction in progress and finishing details, photographed on site. Select a photograph for a closer look.</p></div>
+      <div class="gallery">
+        <figure><a class="gallery-link" href="images/roof-framing.jpg" data-caption="Roof framing and masonry in progress" aria-label="View photograph: roof framing and masonry in progress"><picture><source srcset="images/roof-framing.webp" type="image/webp"><img src="images/roof-framing.jpg" width="1600" height="900" alt="Timber roof trusses being installed above masonry walls" loading="lazy"></picture></a><figcaption><span>Construction</span><h3>Roof framing & masonry</h3></figcaption></figure>
+        <figure><a class="gallery-link" href="images/exterior-finish.jpg" data-caption="Painted exterior and entrance walkway" aria-label="View photograph: painted exterior and entrance walkway"><picture><source srcset="images/exterior-finish.webp" type="image/webp"><img src="images/exterior-finish.jpg" width="1600" height="900" alt="Painted grey exterior with white trim and a concrete entrance walkway" loading="lazy"></picture></a><figcaption><span>Exterior finishing</span><h3>Walls, trim & walkways</h3></figcaption></figure>
+        <figure><a class="gallery-link" href="images/plastering.jpg" data-caption="External plastering in progress" aria-label="View photograph: external plastering in progress"><picture><source srcset="images/plastering.webp" type="image/webp"><img src="images/plastering.jpg" width="1600" height="900" alt="Worker plastering an exterior wall around the window openings" loading="lazy"></picture></a><figcaption><span>Work in progress</span><h3>External plastering</h3></figcaption></figure>
+        <figure><a class="gallery-link" href="images/entrance.jpg" data-caption="Finished entrance with columns and timber door" aria-label="View photograph: finished entrance with columns and timber door"><picture><source srcset="images/entrance.webp" type="image/webp"><img src="images/entrance.jpg" width="1600" height="1200" alt="Finished entrance with two columns, contrasting wall bands and a timber door" loading="lazy"></picture></a><figcaption><span>Entrance details</span><h3>A finished arrival</h3></figcaption></figure>
       </div>
+      <div class="detail-gallery">
+        <figure><a class="gallery-link" href="images/interior-finish.jpg" data-caption="Interior ceiling, painted walls and tiled floor" aria-label="View photograph: interior ceiling, painted walls and tiled floor"><picture><source srcset="images/interior-finish.webp" type="image/webp"><img src="images/interior-finish.jpg" width="960" height="1280" alt="Finished room with a detailed ceiling, painted walls and reflective tiled floor" loading="lazy"></picture></a><figcaption>Ceilings, painting & tiling</figcaption></figure>
+        <figure><a class="gallery-link" href="images/bathroom.jpg" data-caption="Bathroom wall and floor finishes" aria-label="View photograph: bathroom wall and floor finishes"><picture><source srcset="images/bathroom.webp" type="image/webp"><img src="images/bathroom.jpg" width="960" height="1280" alt="Bathroom with marble-pattern wall tiles, a basin, toilet and bath" loading="lazy"></picture></a><figcaption>Bathroom finishes</figcaption></figure>
+        <figure><a class="gallery-link" href="images/gate.jpg" data-caption="Gate and boundary wall" aria-label="View photograph: gate and boundary wall"><picture><source srcset="images/gate.webp" type="image/webp"><img src="images/gate.jpg" width="1600" height="1200" alt="Black metal entrance gate between painted boundary walls" loading="lazy"></picture></a><figcaption>Gate & boundary wall</figcaption></figure>
+      </div>
+      <p class="photo-note">Photographs supplied with the company materials. Project names, locations and dates were not provided.</p>
     </section>
-
-    <section class="work" id="work">
-      <div class="wrap work-heading"><p class="eyebrow"><span></span> From the site to the finish</p><h2>Work that meets<br>the moment.</h2><p>Explore the stages that shape a well-considered project.</p></div>
-      <div class="work-grid wrap">
-        <figure class="work-card renovation"><img src="construction.jpg" alt="A home extension and renovation in progress" loading="lazy"><figcaption><span>01 / Renovation</span><strong>Making space for what comes next.</strong></figcaption></figure>
-        <figure class="work-card construction"><img src="interior.jpg" alt="Interior construction with exposed framing and electrical installation" loading="lazy"><figcaption><span>02 / Construction</span><strong>Detail matters behind the walls.</strong></figcaption></figure>
-        <figure class="work-card complete"><img src="finished-south-african-home.jpg" alt="Illustrative completed contemporary South African home" loading="lazy"><figcaption><span>03 / Completed home</span><strong>Ready for the life built around it.</strong><small>Illustrative architecture image</small></figcaption></figure>
+    <section class="services" id="services" aria-labelledby="services-title">
+      <div class="wrap services-layout"><div><p class="section-label">Capabilities</p><h2 id="services-title">From the ground up.</h2><p>Building, improving and finishing spaces. Speak to us about the services your project needs.</p><a class="text-link" href="#contact">Discuss your project</a></div>
+        <dl class="service-list"><div><dt>Building & foundations</dt><dd>Building construction and foundation work.</dd></div><div><dt>Renovations & plastering</dt><dd>Renovation work and plaster finishes.</dd></div><div><dt>Painting & ceilings</dt><dd>Painting and ceiling installation.</dd></div><div><dt>Fencing & electrical installation</dt><dd>Devil’s fork security fencing and electricity installation.</dd></div></dl>
       </div>
     </section>
-
-    <section class="feature-home">
-      <div class="feature-photo"><img src="finished-south-african-home.jpg" alt="Illustrative completed contemporary South African home with indigenous landscaping" loading="lazy"></div>
-      <div class="feature-copy"><p class="eyebrow"><span></span> The finish in view</p><h2>Bring the plan.<br><em>We’ll bring it to life.</em></h2><p>Construction is about more than getting the work done. It is about making considered choices from the ground up, then carrying that standard through the details.</p><a class="button dark" href="#contact">Start your project <span aria-hidden="true">↗</span></a><small>Completed-home image is an illustrative design reference, not a photographed LEOPA SUPPLY project.</small></div>
+    <section class="company wrap" id="company" aria-labelledby="company-title">
+      <div class="company-intro"><p class="section-label">Leopa Supply</p><h2 id="company-title">Building with<br>purpose.</h2><p>Our vision is to change lives and advance communities through economically and socially enabling developments, providing dignified, secure and comfortable housing.</p><p>Our mission is to complete projects on time and deliver quality beyond client expectations.</p><p class="registration">LEOPA SUPPLY (Pty) Ltd<br>Registration 2022/471370/07</p></div>
+      <div class="director"><picture><source srcset="images/blessing-leopa.webp" type="image/webp"><img src="blessing-leopa-portrait.jpg" width="1122" height="1402" alt="Blessing Leopa, Director of Leopa Supply" loading="lazy"></picture><div class="director-caption"><div><h3>Blessing Leopa</h3><p>Director</p></div><a class="text-link" href="https://nyaps-tech.github.io/leopa-supply-card/">Digital business card</a></div></div>
     </section>
-
-    <section class="director wrap" id="director">
-      <div class="director-copy"><p class="section-kicker">Leadership</p><h2>Direct accountability<br>when it <em>matters.</em></h2><p>Behind the business is a direct point of contact. Blessing Leopa, Director, leads the project conversation and is available to discuss the work you need done.</p><div class="director-signoff"><span>BL</span><div><strong>Blessing Leopa</strong><small>Director, LEOPA SUPPLY</small></div></div><a href="https://nyaps-tech.github.io/leopa-supply-card/" class="text-link">View Blessing’s digital card <span aria-hidden="true">↗</span></a></div>
-      <figure class="director-portrait"><img src="blessing-leopa-portrait.jpg" alt="Blessing Leopa, Director of LEOPA SUPPLY" loading="lazy"><figcaption>Director · LEOPA SUPPLY</figcaption></figure>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="contact-inner wrap">
-        <div class="contact-copy"><p class="eyebrow light"><span></span> Let’s talk work</p><h2>Start with<br>the <em>project.</em></h2><p>Tell us what you are building, changing or finishing. We’ll help you take the next practical step.</p><div class="contact-details"><a href="tel:+27638809118"><small>Phone</small><strong>063 880 9118</strong><span>+27 63 880 9118</span></a><a href="mailto:tleopa@yahoo.co.uk"><small>Email</small><strong>tleopa@yahoo.co.uk</strong><span>Project enquiries</span></a></div><div class="contact-actions"><a class="button gold" href="https://wa.me/27638809118">Open WhatsApp <span aria-hidden="true">↗</span></a><a class="small-button" href="Blessing_Leopa.vcf" download="Blessing_Leopa.vcf">Save contact <span aria-hidden="true">↓</span></a></div><p class="fine-print">WhatsApp requires an internet connection. Account availability has not been independently confirmed.</p></div>
-        <div class="enquiry" id="enquiry"><div class="form-title"><img src="logo.jpeg" alt="LEOPA SUPPLY logo"><div><p>Project enquiry</p><h3>What are you planning?</h3></div></div><form id="project-form"><label>Your name<input name="name" autocomplete="name" required maxlength="100" placeholder="Your name"></label><label>What do you need?<select name="service" required><option value="">Select an area of work</option><option>Building & foundations</option><option>Renovations & plastering</option><option>Painting & ceilings</option><option>Fencing & electrical work</option><option>Several services / not sure yet</option></select></label><label>Project location<input name="location" required maxlength="150" placeholder="Town or area"></label><label>A little about the work<textarea name="details" rows="4" required minlength="10" maxlength="1800" placeholder="What would you like to build, change or finish?"></textarea></label><button class="button gold" type="submit">Prepare my enquiry <span aria-hidden="true">↗</span></button><p class="form-note">This prepares a message for you to review and send. Your details are not stored on this website.</p></form></div>
-      </div>
-    </section>
+    <section class="contact" id="contact" aria-labelledby="contact-title"><div class="wrap contact-layout"><div><p class="section-label">Contact</p><h2 id="contact-title">Let’s talk about<br>your project.</h2><p>Tell Blessing what you have in mind, where the work is needed and when you would like to begin.</p></div><address><a href="tel:+27638809118"><span>Call Blessing</span><strong>063 880 9118</strong></a><a href="mailto:tleopa@yahoo.co.uk"><span>Email</span><strong>tleopa@yahoo.co.uk</strong></a><div class="contact-links"><a href="https://wa.me/27638809118?text=Hello%20Blessing%2C%20I%20would%20like%20to%20discuss%20a%20project.">WhatsApp</a><a href="https://www.facebook.com/marvelous.leopa.96">Facebook</a><a href="https://nyaps-tech.github.io/leopa-supply-card/">Save contact</a></div></address></div></section>
   </main>
-
-  <footer class="footer wrap"><img src="logo.jpeg" alt="LEOPA SUPPLY logo"><p>Registration 2022/471370/07</p><div><a href="photo-credits.html">Photo credits</a><a href="#home">Back to top ↑</a></div></footer>
-
-  <dialog id="draft-dialog" aria-labelledby="draft-title"><div class="dialog-header"><div><p class="section-kicker">Project enquiry</p><h2 id="draft-title">Your message</h2></div><button type="button" id="close-dialog" aria-label="Close enquiry draft">×</button></div><p>Review your message, then choose how to send it.</p><pre id="message-preview"></pre><div class="draft-actions"><a class="button gold" id="whatsapp-draft" href="https://wa.me/27638809118">Open WhatsApp <span aria-hidden="true">↗</span></a><a class="button outline" id="email-draft" href="mailto:tleopa@yahoo.co.uk">Open email <span aria-hidden="true">↗</span></a><button class="copy-button" id="copy-draft" type="button">Copy message</button></div><p id="draft-status" role="status"></p></dialog>
+  <footer class="site-footer wrap"><p>LEOPA SUPPLY (Pty) Ltd</p><a href="photo-credits.html">About the photographs</a><a href="#home">Back to top</a></footer>
+  <dialog class="lightbox" aria-labelledby="photo-caption"><div class="lightbox-header"><p id="photo-caption"></p><button class="close-photo" type="button" aria-label="Close photograph">Close</button></div><div class="photo-stage"><img class="full-photo" alt=""><p class="photo-status" role="status"></p></div><div class="lightbox-controls"><button class="previous-photo" type="button">Previous</button><span class="photo-count"></span><button class="next-photo" type="button">Next</button></div></dialog>
 </body>
 </html>

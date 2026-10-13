@@ -1,19 +1,15 @@
-# LEOPA SUPPLY design decisions
+# Design direction
 
-Direction derives from the supplied black, white and yellow construction logo and the user's request for a polished website with stock photography.
+Reading this as a corporate construction website for prospective clients, in a restrained photographic and editorial style. ENERGY 2 / RHYTHM 3 / MOTION 1, derived from the owner's premium, trustworthy, photography-led brief.
 
-ENERGY 3 / RHYTHM 3 / MOTION 1.
-
-Black and yellow carry the existing brand. Warm stone surfaces relate to plaster, concrete and building materials. The light background keeps service descriptions readable; charcoal frames the photographic introduction and contact section.
-
-Oversized bold Arial headings echo the logo's weight. A single serif emphasis in the business introduction changes the reading pace without creating another brand. Restrained tracking appears only on short navigation labels.
-
-The hero introduces the offered work. Services use an expandable index, the business introduction uses a text split, and the enquiry section puts a practical form beside direct contact details. Composition varies to support the different reading tasks.
-
-The numbered service index helps people scan the grouped services; the numbers are list positions, not business statistics. Photographs are stock construction references and are labelled as such.
-
-Buttons use near-square corners to match the construction identity. Hover feedback acknowledges actions; reduced-motion users get instant transitions. There are no decorative loops, glow or background patterns.
-
-The hero gradient holds text contrast over photography, and the bottom strapline uses a dark backing so its small text stays readable across bright areas of the image.
-
-Mobile stacks the enquiry form, moves navigation into a labelled menu and uses smaller spacing. Tablet uses readable paired columns; full desktop expands the whitespace.
+- Charcoal, warm paper and gold relate the corporate site to the personal card and supplied card reference; the original logo keeps its black/yellow identity.
+- Georgia headings provide a measured editorial voice; Arial supports service descriptions and navigation with fast system-font loading.
+- The split introduction gives real completed-work photography equal prominence to the service proposition, without putting text over the image.
+- A consistent two-column project gallery supports comparison, followed by smaller interior/detail images that reflect their available resolution and orientation.
+- Captions describe what the supplied photos show. There are no fabricated project identities, timelines, clients or accomplishments.
+- The service list is a text index, because these are capabilities rather than separate products needing decorated cards.
+- Vision and mission sit beside the verified director portrait, tying the company information to a real point of contact.
+- Larger section gaps separate work, capabilities and company information; tighter caption spacing keeps descriptions associated with their images.
+- The gold action and charcoal contact section use the same hierarchy as the card. There are no gradients, background patterns, decorative icons or testimonial placeholders.
+- Only hover/focus feedback and user-controlled gallery changes move. Reduced-motion preference removes scrolling transitions.
+- The native dialog supplies keyboard focus management and Escape dismissal. Direct image links and visible navigation preserve functionality without JavaScript.

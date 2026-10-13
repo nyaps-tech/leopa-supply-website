@@ -1,0 +1,53 @@
+{
+  "results": [
+    "Card: telephone/email/company destination exact; Save contact downloads the verified vCard. Native phone/email handlers are not exercised in headless Chrome.",
+    "Website: all four navigation links reach their sections, close the mobile menu, and Back to top reaches the introduction.",
+    "Gallery: Enter opens, Tab stays in native modal, Escape closes and restores focus to the original image link.",
+    "Gallery: failed photo displays recovery text; Next loads another image and clears the error.",
+    "Website contact: telephone, email, WhatsApp and supplied Facebook destinations verified. No messages sent.",
+    "Photo-information link opens its page; source manifest loads; Return to Leopa Supply returns to the website.",
+    "Without JavaScript: mobile navigation remains visible and gallery link opens the actual image."
+  ],
+  "contrast": [
+    {
+      "text": "f7f4ed",
+      "background": "191918",
+      "ratio": 16.02
+    },
+    {
+      "text": "dfb76a",
+      "background": "191918",
+      "ratio": 9.32
+    },
+    {
+      "text": "c2bfb6",
+      "background": "191918",
+      "ratio": 9.57
+    },
+    {
+      "text": "625e55",
+      "background": "f7f4ed",
+      "ratio": 5.88
+    },
+    {
+      "text": "625e55",
+      "background": "eae5d9",
+      "ratio": 5.14
+    },
+    {
+      "text": "c4c0b7",
+      "background": "191918",
+      "ratio": 9.69
+    },
+    {
+      "text": "d1cdc3",
+      "background": "191918",
+      "ratio": 11.09
+    },
+    {
+      "text": "191918",
+      "background": "dfb76a",
+      "ratio": 9.32
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+[
+  {
+    "product": "card",
+    "viewport": "280x480",
+    "dimensions": {
+      "width": 280,
+      "height": 480,
+      "scrollWidth": 280,
+      "scrollHeight": 480,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "320x400",
+    "dimensions": {
+      "width": 320,
+      "height": 400,
+      "scrollWidth": 320,
+      "scrollHeight": 400,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "320x480",
+    "dimensions": {
+      "width": 320,
+      "height": 480,
+      "scrollWidth": 320,
+      "scrollHeight": 480,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "320x568",
+    "dimensions": {
+      "width": 320,
+      "height": 568,
+      "scrollWidth": 320,
+      "scrollHeight": 568,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "360x640",
+    "dimensions": {
+      "width": 360,
+      "height": 640,
+      "scrollWidth": 360,
+      "scrollHeight": 640,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "375x667",
+    "dimensions": {
+      "width": 375,
+      "height": 667,
+      "scrollWidth": 375,
+      "scrollHeight": 667,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "390x844",
+    "dimensions": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "412x915",
+    "dimensions": {
+      "width": 412,
+      "height": 915,
+      "scrollWidth": 412,
+      "scrollHeight": 915,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "600x800",
+    "dimensions": {
+      "width": 600,
+      "height": 800,
+      "scrollWidth": 600,
+      "scrollHeight": 800,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "667x375",
+    "dimensions": {
+      "width": 667,
+      "height": 375,
+      "scrollWidth": 667,
+      "scrollHeight": 375,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "700x450",
+    "dimensions": {
+      "width": 700,
+      "height": 450,
+      "scrollWidth": 700,
+      "scrollHeight": 450,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "700x500",
+    "dimensions": {
+      "width": 700,
+      "height": 500,
+      "scrollWidth": 700,
+      "scrollHeight": 500,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 195
+  },
+  {
+    "product": "card",
+    "viewport": "768x568",
+    "dimensions": {
+      "width": 768,
+      "height": 568,
+      "scrollWidth": 768,
+      "scrollHeight": 568,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 195
+  },
+  {
+    "product": "card",
+    "viewport": "768x1024",
+    "dimensions": {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "scrollHeight": 1024,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 195
+  },
+  {
+    "product": "card",
+    "viewport": "844x390",
+    "dimensions": {
+      "width": 844,
+      "height": 390,
+      "scrollWidth": 844,
+      "scrollHeight": 390,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 130
+  },
+  {
+    "product": "card",
+    "viewport": "1280x720",
+    "dimensions": {
+      "width": 1280,
+      "height": 720,
+      "scrollWidth": 1280,
+      "scrollHeight": 720,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 195
+  },
+  {
+    "product": "card",
+    "viewport": "1920x1080",
+    "dimensions": {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "scrollHeight": 1080,
+      "clipped": []
+    },
+    "renderedQRDecodes": true,
+    "qrSize": 195
+  },
+  {
+    "product": "website",
+    "viewport": 320,
+    "check": {
+      "width": 320,
+      "scrollWidth": 320,
+      "brokenImages": [],
+      "brokenAnchors": []
+    }
+  },
+  {
+    "product": "website",
+    "viewport": 375,
+    "check": {
+      "width": 375,
+      "scrollWidth": 375,
+      "brokenImages": [],
+      "brokenAnchors": []
+    }
+  },
+  {
+    "product": "website",
+    "viewport": 768,
+    "check": {
+      "width": 768,
+      "scrollWidth": 768,
+      "brokenImages": [],
+      "brokenAnchors": []
+    }
+  },
+  {
+    "product": "website",
+    "viewport": 1280,
+    "check": {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "brokenImages": [],
+      "brokenAnchors": []
+    }
+  },
+  {
+    "product": "website",
+    "viewport": 1920,
+    "check": {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "brokenImages": [],
+      "brokenAnchors": []
+    }
+  },
+  {
+    "javascriptErrors": []
+  }
+]

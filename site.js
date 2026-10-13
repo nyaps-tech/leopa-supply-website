@@ -52,3 +52,32 @@ dialog.addEventListener('click', event => {
   const bounds = dialog.getBoundingClientRect();
   if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
 });
+
+const form = document.querySelector('#enquiry-form');
+if (form) {
+  let channel = 'whatsapp';
+  form.querySelectorAll('button[type=submit]').forEach(b => b.addEventListener('click', () => { channel = b.dataset.channel; }));
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    const d = Object.fromEntries(new FormData(form));
+    const lines = [
+      'Hello Blessing, I would like a quote.',
+      `Name: ${d.name}`,
+      `Service: ${d.service}`,
+      `Location: ${d.location}`,
+      `Start: ${d.start}`
+    ];
+    if (d.details && d.details.trim()) lines.push(`Details: ${d.details.trim()}`);
+    const text = lines.join('\n');
+    if (channel === 'email') {
+      location.href = `mailto:tleopa@yahoo.co.uk?subject=${encodeURIComponent('Quote request: ' + d.service)}&body=${encodeURIComponent(text)}`;
+    } else {
+      window.open(`https://wa.me/27638809118?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
+    }
+  });
+}
+const quickBar = document.querySelector('.quick-bar');
+const contactSection = document.querySelector('#contact');
+if (quickBar && contactSection && 'IntersectionObserver' in window) {
+  new IntersectionObserver(entries => quickBar.classList.toggle('hidden', entries[0].isIntersecting), { threshold: 0.15 }).observe(contactSection);
+}

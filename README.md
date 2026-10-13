@@ -1,5 +1,7 @@
 # Leopa Supply company website
 
+Current design update: the owner's supplied New Website HTML, CSS, JavaScript, sitemap and robots file are now used directly. Quote requests prepare WhatsApp/email drafts for the visitor to send. See REFERENCE-UPDATE.md for the current reference matching and validation; the original rebuild documentation below provides asset and deployment background.
+
 A static, responsive corporate website centred on supplied project photographs, the verified service list, company vision and mission, and Director Blessing Leopa's direct contact details. No framework, runtime dependencies, external fonts, tracking or backend is required.
 
 Public address: https://nyaps-tech.github.io/leopa-supply-website/

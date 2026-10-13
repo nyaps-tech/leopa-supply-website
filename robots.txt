@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nyaps-tech.github.io/leopa-supply-website/sitemap.xml

@@ -1,0 +1,56 @@
+[
+  {
+    "cardViewport": "320x568",
+    "exactReferenceScreenshot": true,
+    "renderedQRDecodes": true,
+    "documentHeight": 986
+  },
+  {
+    "cardViewport": "390x844",
+    "exactReferenceScreenshot": true,
+    "renderedQRDecodes": true,
+    "documentHeight": 891
+  },
+  {
+    "cardViewport": "1280x900",
+    "exactReferenceScreenshot": true,
+    "renderedQRDecodes": true,
+    "documentHeight": 900
+  },
+  {
+    "websiteWidth": 320,
+    "noHorizontalOverflow": true,
+    "allImagesLoaded": true,
+    "galleryVerified": true,
+    "quoteValidation": true,
+    "whatsappDraftVerifiedWithoutSending": true,
+    "javascriptErrors": []
+  },
+  {
+    "websiteWidth": 375,
+    "noHorizontalOverflow": true,
+    "allImagesLoaded": true,
+    "galleryVerified": true,
+    "quoteValidation": true,
+    "whatsappDraftVerifiedWithoutSending": true,
+    "javascriptErrors": []
+  },
+  {
+    "websiteWidth": 768,
+    "noHorizontalOverflow": true,
+    "allImagesLoaded": true,
+    "galleryVerified": true,
+    "quoteValidation": true,
+    "whatsappDraftVerifiedWithoutSending": true,
+    "javascriptErrors": []
+  },
+  {
+    "websiteWidth": 1280,
+    "noHorizontalOverflow": true,
+    "allImagesLoaded": true,
+    "galleryVerified": true,
+    "quoteValidation": true,
+    "whatsappDraftVerifiedWithoutSending": true,
+    "javascriptErrors": []
+  }
+]
